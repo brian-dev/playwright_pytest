@@ -1,9 +1,61 @@
 {
-  "urls": [
-    {
+  "urls": {
       "base_url": "https://practice.expandtesting.com/notes/app",
       "login_url": "https://practice.expandtesting.com/notes/app/login",
       "register_url": "https://practice.expandtesting.com/notes/app/register"
+    },
+  "users": {
+    "registered_user": {
+      "email": "a@example.com",
+      "password": "password",
+      "name": "registered user"
+    },
+    "invalid_email": {
+      "email": "a.example.com",
+      "password": "password",
+      "name": "registered user"
+    },
+    "short_password": {
+      "email": "a@example.com",
+      "password": "a",
+      "name": "registered user"
+    },
+    "long_password": {
+      "email": "a@example.com",
+      "password": "asdnakjsdbaksjdbajkfbwuifbuqwbdqwofbqwjkfksdfndskjfn;fbewibifvqiwfefbeovnebejbfshjevdqwhjvdaw",
+      "name": "registered user"
+    },
+    "short_name": {
+      "email": "a@example.com",
+      "password": "password",
+      "name": "a"
+    },
+    "long_name": {
+      "email": "a@example.com",
+      "password": "password",
+      "name": "nlklsidiiidnfeinveiwpefnepwinewjkfnsevnelnjsnvlsnvs ecsjekfbsefsenfsenlkfnskelfnsekvnkselvnslefknsein"
+    },
+    "empty_name": {
+      "email": "a@example.com",
+      "password": "password",
+      "name": ""
+    },
+    "empty_email": {
+      "email": "",
+      "password": "password",
+      "name": "registered user"
+    },
+    "empty_password": {
+      "email": "a@example.com",
+      "password": "",
+      "password2": "password",
+      "name": "registered user"
+    },
+    "mismatched_password": {
+      "email": "a@example.com",
+      "password": "password",
+      "password2": "p@ssword",
+      "name": "registered user"
     }
-  ]
+  }
 }
