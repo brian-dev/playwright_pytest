@@ -3,8 +3,11 @@ import string
 
 
 class Generators:
-    def generate_random_str(self):
-        chars = self.char_len_generator()
+    def generate_random_str(self, num_chars=0, auto_generate=True):
+        if auto_generate:
+            chars = self.char_len_generator()
+        else:
+            chars = num_chars
         name = string.ascii_letters
         return ''.join(random.choice(name) for i in range(chars))
 
