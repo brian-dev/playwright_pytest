@@ -1,0 +1,9 @@
+{
+  "urls": [
+    {
+      "base_url": "https://practice.expandtesting.com/notes/app",
+      "login_url": "https://practice.expandtesting.com/notes/app/login",
+      "register_url": "https://practice.expandtesting.com/notes/app/register"
+    }
+  ]
+}
