@@ -4,7 +4,7 @@
       "login_url": "https://practice.expandtesting.com/notes/app/login",
       "register_url": "https://practice.expandtesting.com/notes/app/register"
     },
-  "users": {
+  "registration_users": {
     "registered_user": {
       "email": "a@example.com",
       "password": "password",
@@ -56,6 +56,24 @@
       "password": "password",
       "password2": "p@ssword",
       "name": "registered user"
+    }
+  },
+  "login_users": {
+    "incorrect_username": {
+      "username": "someone@example.com",
+      "password": "password"
+    },
+    "incorrect_password": {
+      "username": "a@example.com",
+      "password": "sdsdksad"
+    },
+    "empty_username": {
+      "username": "",
+      "password": "password"
+    },
+    "empty_password": {
+      "username": "a@example.com",
+      "password": ""
     }
   }
 }
