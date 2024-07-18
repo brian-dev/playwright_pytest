@@ -22,15 +22,15 @@ class RegisterPage:
             password2 = password
             name = f"{generators.generate_random_str()}"
         elif data_type == 'mismatched_password' or data_type == 'empty_password':
-            email = props['users'][data_type]['email']
-            password = props['users'][data_type]['password']
-            password2 = props['users'][data_type]['password2']
-            name = props['users'][data_type]['name']
+            email = props['registration_users'][data_type]['email']
+            password = props['registration_users'][data_type]['password']
+            password2 = props['registration_users'][data_type]['password2']
+            name = props['registration_users'][data_type]['name']
         else:
-            email = props['users'][data_type]['email']
-            password = props['users'][data_type]['password']
+            email = props['registration_users'][data_type]['email']
+            password = props['registration_users'][data_type]['password']
             password2 = password
-            name = props['users'][data_type]['name']
+            name = props['registration_users'][data_type]['name']
 
         self.email_input.fill(email)
         self.password_input.fill(password)

@@ -11,6 +11,7 @@ pyee==11.1.0
 pytest==8.2.2
 pytest-base-url==2.1.0
 pytest-playwright==0.5.1
+python-dotenv==1.0.1
 python-slugify==8.0.4
 requests==2.32.3
 text-unidecode==1.3
